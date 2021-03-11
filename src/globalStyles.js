@@ -39,6 +39,7 @@ export const Button = styled.button`
     background: ${({primary}) => (primary ? '#4b59f7' : '#0467fb')};
     font-size: ${({fontBig}) => (fontBig ? '22px' : '16px')};
     padding: ${({big}) => (big ? '12px 64px' : '10px 20px')};
+    width: ${({fullWidth}) => (fullWidth ? '100%' : '')};
     border-radius: 4px;
     white-space: nowrap;
     outline: none;
