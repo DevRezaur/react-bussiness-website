@@ -28,7 +28,7 @@ const CourseSection = () => {
                                 Learn Spring Framework 5.0 with Spring Boot 2.0 now. And fulfill your dream to become a 
                                 enterprise application developer.
                             </CardDesc>
-                            <Link to='/sign-up'>
+                            <Link to='/sign-in'>
                                 <Button fullWidth primary="primary">
                                     Enroll Now
                                 </Button>
@@ -46,7 +46,7 @@ const CourseSection = () => {
                                 From general programming to machine learning, anything you can do with Python. 
                                 So learn Python today with its amazing Django Framework.
                             </CardDesc>
-                            <Link to='/sign-up'>
+                            <Link to='/sign-in'>
                                 <Button fullWidth primary="primary">
                                     Enroll Now
                                 </Button>
@@ -64,7 +64,7 @@ const CourseSection = () => {
                                 developed by Facebook Corporation. It is popular beacuse of its easy learning 
                                 curve. More and more reple are switching to React.
                             </CardDesc>
-                            <Link to='/sign-up'>
+                            <Link to='/sign-in'>
                                 <Button fullWidth primary="primary">
                                     Enroll Now
                                 </Button>

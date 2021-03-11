@@ -30,7 +30,7 @@ const InfoSection = ({lightBG, imgStart, lightTopLine, topLine, lightText,
                             <SubTitle lightTextDesc={lightTextDesc}>
                                 {description}
                             </SubTitle>
-                            <Link to='/sign-up'>
+                            <Link to='/sign-in'>
                                 <Button big fontBig primary={primary}>
                                     {buttonLabel}
                                 </Button>
