@@ -1,4 +1,5 @@
 export const aboutObject = {
+    id: 'home',
     lightBG: false,
     imgStart: '',
     lightTopLine: true,
@@ -17,6 +18,7 @@ export const aboutObject = {
 }
 
 export const mentorshipObject = {
+    id: 'mentor',
     lightBG: true,
     imgStart: 'start',
     lightTopLine: false,
@@ -34,6 +36,7 @@ export const mentorshipObject = {
 }
 
 export const testimonialObject = {
+    id: 'testimonial',
     lightBG: false,
     imgStart: '',
     lightTopLine: true,

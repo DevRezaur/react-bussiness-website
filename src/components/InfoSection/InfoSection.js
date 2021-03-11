@@ -11,13 +11,13 @@ import {
     TopLine,
     Img } from './InfoSection.element'
 
-const InfoSection = ({lightBG, imgStart, lightTopLine, topLine, lightText, 
+const InfoSection = ({id, lightBG, imgStart, lightTopLine, topLine, lightText, 
                     headLine, lightTextDesc, description, primary, buttonLabel,
                     img, alt}) => {
 
     return (
         <>
-            <InfoSec lightBG={lightBG}>
+            <InfoSec lightBG={lightBG} id={id}>
                 <Container>
                     <InfoRow imgStart={imgStart}>
                         <InfoColumn>

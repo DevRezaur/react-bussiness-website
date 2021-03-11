@@ -24,6 +24,7 @@ const Navbar = () => {
     const showButton = () => {
         if(window.innerWidth <= 900) {
             setButtonLabelSm(false);
+            setClick(false);
         } else {
             setButtonLabelSm(true);
         }
@@ -39,41 +40,41 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavContainer>
-                    <NavLogo to='/'>
+                    <NavLogo to='/' onClick={handleClick}>
                         <NavIcon />
                         <NavTitle>Dev Academy</NavTitle>
                     </NavLogo>
                     <MobileIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
                     </MobileIcon>
-                    <NavMenu onClick={handleClick} click={click}>
+                    <NavMenu click={click}>
                         <NavItem>
-                            <NavLink to='/'>
+                            <NavLink to='home' onClick={handleClick} smooth={true} offset={-80} duration={500}>
                                 Home
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='/mentorship'>
+                            <NavLink to='mentor' onClick={handleClick} smooth={true} offset={-80} duration={500}>
                                 Mentorship
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='/testimonial'>
+                            <NavLink to='testimonial' onClick={handleClick} smooth={true} offset={-80} duration={500}>
                                 Testimonials
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='/courses'>
+                            <NavLink to='course' onClick={handleClick} smooth={true} offset={-80} duration={500}>
                                 Courses
                             </NavLink>
                         </NavItem>
                         <NavItemBtn>
                             {buttonLabelSm ? (
-                                <NavBtnLink to="/sign-in">
+                                <NavBtnLink to="/sign-in" onClick={handleClick}>
                                     <Button primary>Sign In</Button>
                                 </NavBtnLink>
                             ) : (
-                                <NavBtnLink to="/sign-in">
+                                <NavBtnLink to="/sign-in" onClick={handleClick}>
                                     <Button fontBig primary>Sign In</Button>
                                 </NavBtnLink>
                             )}

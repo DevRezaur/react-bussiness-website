@@ -12,7 +12,7 @@ import { Card,
 const CourseSection = () => {
     return (
         <>
-            <Container>
+            <Container id="course">
                 <Heading>
                     Top Cousrses
                 </Heading>

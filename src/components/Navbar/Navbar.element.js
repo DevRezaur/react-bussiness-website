@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { FaUniversity } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { Link as SLink } from 'react-scroll';
 import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav`
@@ -95,12 +96,14 @@ export const NavItem = styled.li`
     }
 `;
 
-export const NavLink = styled(Link)`
+export const NavLink = styled(SLink)`
     color: #fff;
     text-decoration: none;
     padding: 0.5rem 1rem;
     width: 100%;
+    line-height: 80px;
     text-align: center;
+    cursor: pointer;
 
     @media screen and (max-width: 900px) {   
         padding: 2rem;
@@ -131,4 +134,5 @@ export const NavBtnLink = styled(Link)`
     width: 100%;
     height: 100%;
     border: none;
+    cursor: pointer;
 `;
