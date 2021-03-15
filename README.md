@@ -18,13 +18,13 @@ Responsive business website using React JS and reusable Styled Components.
 
 ![Courses](https://raw.githubusercontent.com/DevRezaur/react-bussiness-website/main/screenshots/Courses.PNG)
 
-### Footer Section
-
-![Footer](https://raw.githubusercontent.com/DevRezaur/react-bussiness-website/main/screenshots/Footer.PNG)
-
 ### Signin Section
 
 ![Signin](https://raw.githubusercontent.com/DevRezaur/react-bussiness-website/main/screenshots/Signin.PNG)
+
+### Footer Section
+
+![Footer](https://raw.githubusercontent.com/DevRezaur/react-bussiness-website/main/screenshots/Footer.PNG)
 
 ---
 
